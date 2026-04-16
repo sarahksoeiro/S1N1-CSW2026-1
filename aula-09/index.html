@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula-09</title>
+</head>
+
+<body>
+
+    <h1>Aula 9: Formulário</h1>
+
+    <table border="2" cellpadding="5" cellspacing="0">
+        <tbody>
+            <form action="sarahkeyse.soeiro@gmail.com" method="post" enctype="text">
+                <tr>
+                    <td> <label for="nome">Nome:</label></td>
+                    <td><input type="text" name="nome_usuario" size="50" maxlenght="" value=""
+                            placeholder="Digite seu nome"></td>
+                </tr>
+                <tr>
+                    <td><label for="e-mail pessoal:">E-mail pessoal:</label></td>
+                    <td><input type="email" name="email_pessoal" placeholder="Digite seu email pessoal"></td>
+                </tr>
+                <tr>
+                    <td><label for="E-mail (patter):">E-mail (patter):</label></td>
+                    <td><input type="email" name="email_patter" placeholder="Digite seu email (patter)"></td>
+                </tr>
+                <tr>
+                    <td><label for="senha">Senha:</label></td>
+                    <td><input type="password" name="senha" placeholder="Digite sua senha"></td>
+                </tr>
+                <tr>
+                    <td><label for="idade">Idade:</label></td>
+                    <td><input type="number" max="100" min="0" name="idade" placeholder="Digite sua idade"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <p>Deixe um comentário:</p>
+                        <textarea name="comentário" cols="50" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Matéria de interesse:</label>
+                        <br>
+                        <input type="checkbox" name="BackEnd" id="checkbox1" value="1">BackEnd
+                        <br>
+                        <input type="checkbox" name="FrontEnd" id="checkbox2" value="2">FronEnd
+                        <br>
+                        <input type="checkbox" name="FullStack" id="checkbox3" value=True>FullStack
+                    </td>
+                    <td> <label for="">Tipo de Viagem</label>
+                        <br>
+                        <input type="radio" name="BackEnd" id="checkbox1" value="Neg">Negócios
+                        <br>
+                        <input type="radio" name="FrontEnd" id="checkbox2" value="Laz">Lazer
+                        <br>
+                        <input type="radio" name="FullStack" id="checkbox3" value="Tur">Turismo
+                        <br>
+                        <input type="radio" name="FullStack" id="checkbox4" value="Acad">Acadêmico
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Esporte favorito</label>
+                        <select name="esporte" size="4">
+                            <option value="esporte-01">Futebol</option>
+                            <option value="esporte-02">Basquete</option>
+                            <option value="esporte-03">Vôlei</option>
+                            <option value="esporte-04">Tênis</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="">Investimentos</label>
+                        <select name="investimentos" size="1">
+                            <option value="investimentos-01">Poupança</option>
+                            <option value="investimentos-02">CDB</option>
+                            <option value="investimentos-03">Tesouro Direto</option>
+                            <option value="investimentos-04">Fundos Imobiliários</option>
+                            <option value="investimentos-05">CDI</option>
+                            <option value="investimentos-06">Debêntures</option>
+                            <option value="investimentos-07">Criptomoedas</option>
+                            <option value="investimentos-08">Ações</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Escolha uma cor</label>
+                        <input type="color" name="cor" style="color: black;">
+                    </td>
+                    <td>
+                        <label for="">Selecione um arquivo:</label>
+                        <input type="file" name="arquivo">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="">Data e hora de envio</label>
+                        <input type="datetime" name="hora e data" id="hora_data" value="datetime">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Enviar">
+                    </td>
+                    <td>
+                        <input type="reset" value="Limpar">
+                    </td>
+
+                </tr>
+            </form>
+        </tbody>
+    </table>
