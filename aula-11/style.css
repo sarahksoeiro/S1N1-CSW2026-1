@@ -1,0 +1,11 @@
+body {
+    background-image: linear-gradient(#1C6A9E, #1FA4A9, #7DB9CC)
+}
+
+.caixa {
+    padding: auto;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: gray;
+    align-content: center;
+}
