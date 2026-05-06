@@ -1,24 +1,81 @@
 .container{
-    display: flex;
-    
+display: flex;
+
 }
 .container2{
-    display: flex;
-    justify-content: space-evenly;
-    .item1{
-        flex-grow: 3;
-
-    }
-    .item2{
-        flex-grow: 1;
-        background-color: pink;
-    }
-    .item3{
-        flex-grow: 2;
-        background-color: plum;
-    }
-        div:hover{
-            background-color: aquamarine;}
-
-    
+display: flex;
+justify-content: space-evenly;
 }
+.container2 .item1{
+flex-grow: 1;
+a:hover{
+background-color: aquamarine;
+text-decoration: underline;
+    }
+}  
+.container2 .item2,{  
+    flex-grow: 1;  
+    a:hover{  
+        background-color: pink;  
+        text-decoration: underline;  
+    }  
+}  
+
+.container2 .item3{  
+    flex-grow: 1;  
+    a:hover{  
+        background-color: plum;  
+        text-decoration: underline;  
+    }  
+}
+
+.container3{
+display:flex;
+justify-content: flex-end;
+}
+.container3 .item1{
+flex-grow: 1;
+a:hover{
+background-color: ;
+}
+a:active{
+background-color: ;
+}
+}
+.container3 .item2{
+flex-grow: 1;
+a:hover{
+background-color: ;
+}
+a:active{
+background-color: ;
+}
+}
+.container3 .item3{
+flex-grow: 2;
+a:hover{
+background-color: ;
+}
+a:active{
+background-color: ;
+}
+}
+.container3 .item4{
+flex-grow: 1;
+a:hover{
+background-color: ;
+}
+a:active{
+background-color: ;
+}
+}
+.container3 .item5{
+flex-grow: 1;
+a:hover{
+background-color: ;
+}
+a:active{
+background-color: ;
+}
+}
+E AGORA?
