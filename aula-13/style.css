@@ -6,76 +6,64 @@ display: flex;
 display: flex;
 justify-content: space-evenly;
 }
-.container2 .item1{
+.container2 .item1,.container2 .item2,.container2 .item3{
 flex-grow: 1;
-a:hover{
+}
+.container2 .item1 a:hover{
 background-color: aquamarine;
 text-decoration: underline;
-    }
-}  
-.container2 .item2,{  
-    flex-grow: 1;  
-    a:hover{  
+} 
+.container2 .item2 a:hover{  
         background-color: pink;  
-        text-decoration: underline;  
-    }  
+        text-decoration: underline;
 }  
 
-.container2 .item3{  
-    flex-grow: 1;  
-    a:hover{  
+.container2 .item3 a:hover{  
         background-color: plum;  
-        text-decoration: underline;  
-    }  
+        text-decoration: underline;
 }
 
 .container3{
 display:flex;
 justify-content: flex-end;
 }
-.container3 .item1{
+.container3 .item1, .container3 .item2, .container3 .item4, .container3 .item5{
 flex-grow: 1;
-a:hover{
+}
+.container3 .item1 a:hover{
 background-color: ;
 }
-a:active{
+.container3 .item1 a:active{
 background-color: ;
 }
-}
-.container3 .item2{
-flex-grow: 1;
-a:hover{
+
+.container3 .item2 a:hover{
 background-color: ;
 }
-a:active{
+.container3 .item2 a:active{
 background-color: ;
 }
-}
+
 .container3 .item3{
 flex-grow: 2;
-a:hover{
+}
+.container3 .item3 a:hover{
 background-color: ;
 }
-a:active{
+.container3 .item3 a:active{
 background-color: ;
 }
-}
-.container3 .item4{
-flex-grow: 1;
-a:hover{
+
+.container3 .item4 a:hover{
 background-color: ;
 }
-a:active{
+.container3 .item4 a:active{
 background-color: ;
 }
-}
-.container3 .item5{
-flex-grow: 1;
-a:hover{
+
+.container3 .item5 a:hover{
 background-color: ;
 }
-a:active{
+.container3 .item5 a:active{
 background-color: ;
 }
-}
-E AGORA?
