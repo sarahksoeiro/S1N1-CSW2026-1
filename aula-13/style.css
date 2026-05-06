@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    
+}
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+    .item1{
+        flex-grow: 3;
+
+    }
+    .item2{
+        flex-grow: 1;
+        background-color: pink;
+    }
+    .item3{
+        flex-grow: 2;
+        background-color: plum;
+    }
+        div:hover{
+            background-color: aquamarine;}
+
+    
+}
