@@ -1,69 +1,112 @@
-.container{
-display: flex;
+:root {
+        --cor1:
+}
+
+.hcontainer {
+        display: flex;
+        background-color: aquamarine;
+        gap: 10px;
+        flex-direction: column;
+        border: 1px solid lightgray;
+        margin: 5px;
+}
+
+.main {
+        display: flex;
+       /*width: 700px;*/
 
 }
-.container2{
-display: flex;
-justify-content: space-evenly;
+
+.container {
+        display: flex;
+        justify-content: space-evenly;
 }
-.container2 .item1,.container2 .item2,.container2 .item3{
-flex-grow: 1;
-}
-.container2 .item1 a:hover{
-background-color: aquamarine;
-text-decoration: underline;
-} 
-.container2 .item2 a:hover{  
-        background-color: pink;  
+
+.container .item1,
+.container .item2,
+.container .item3 {
+        flex-grow: 1;
         text-decoration: underline;
-}  
-
-.container2 .item3 a:hover{  
-        background-color: plum;  
-        text-decoration: underline;
 }
 
-.container3{
-display:flex;
-justify-content: flex-end;
-}
-.container3 .item1, .container3 .item2, .container3 .item4, .container3 .item5{
-flex-grow: 1;
-}
-.container3 .item1 a:hover{
-background-color: honeydew;
-}
-.container3 .item1 a:active{
-background-color: ivory;
+.container .item1 a:hover {
+        background-color: aquamarine;
+
 }
 
-.container3 .item2 a:hover{
-background-color: thistle;
-}
-.container3 .item2 a:active{
-background-color: mintcream;
+.container .item2 a:hover {
+        background-color: pink;
+
 }
 
-.container3 .item3{
-flex-grow: 2;
-}
-.container3 .item3 a:hover{
-background-color: skyblue;
-}
-.container3 .item3 a:active{
-background-color: papayawhip;
+.container .item3 a:hover {
+        background-color: plum;
+
 }
 
-.container3 .item4 a:hover{
-background-color: peachpuff;
-}
-.container3 .item4 a:active{
-background-color: lavender;
+.container2 {
+        display: flex;
+        justify-content: flex-start;
+        color: black;
 }
 
-.container3 .item5 a:hover{
-background-color: mistyrose;
+.container2 .item1,
+.container2 .item2,
+.container2 .item4,
+.container2 .item5 {
+        flex-grow: 1;
+        padding: 20px;
+        border: 1px solid #ccc;
+        margin-left: 10px;
 }
-.container3 .item5 a:active{
-background-color: linen;
+
+.container2 .item3 {
+        flex-grow: 2;
+        padding: 20px;
+        border: 1px solid #ccc;
+        margin-left: 10px;
+}
+
+.container2 .item1 a:hover {
+        background-color: cadetblue;
+}
+
+.container2 .item1 a:active {
+        background-color: darkcyan;
+}
+
+.container2 .item2 a:hover {
+        background-color: thistle;
+}
+
+.container2 .item2 a:active {
+        background-color: darkkhaki;
+        padding: 5px;
+        display: inline-block;
+}
+
+.container2 .item3 a:hover {
+        background-color: skyblue;
+        padding: 5px;
+        display: inline-block;
+}
+
+.container2 .item3 a:active {
+        background-color: darksalmon;
+}
+
+.container2 .item4 a:hover {
+        background-color: peachpuff;
+}
+
+.container2 .item4 a:active {
+        background-color: hotpink;
+}
+
+.container2 .item5 a:hover {
+        background-color: mistyrose;
+}
+
+.container2 .item5 a:active {
+        background-color: wheat;
 }
