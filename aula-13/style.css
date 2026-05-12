@@ -1,3 +1,14 @@
+body {
+        background: linear-gradient:(to right, aliceblue, lavenderblush;
+}
+a {
+        text-decoration: none;
+        color: black;
+}
+.container a, .container2 a{
+    display: block;
+    padding: 10px;
+}
 .hcontainer {
         display: flex;
         background-color: aquamarine;
@@ -10,6 +21,7 @@
 .conteudo {
         display: flex;
        /*width: 700px;*/
+        flex-direction: column;
 
 }
 
