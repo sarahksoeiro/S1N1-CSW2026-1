@@ -1,7 +1,3 @@
-:root {
-        --cor1:
-}
-
 .hcontainer {
         display: flex;
         background-color: aquamarine;
@@ -11,7 +7,7 @@
         margin: 5px;
 }
 
-.main {
+.conteudo {
         display: flex;
        /*width: 700px;*/
 
