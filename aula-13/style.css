@@ -1,120 +1,132 @@
 body {
-        background: linear-gradient:(to right, aliceblue, lavenderblush;
+    background: linear-gradient(to right, aliceblue, lavenderblush);
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 a {
-        text-decoration: none;
-        color: black;
+    text-decoration: none;
+    color: black;
 }
-.container a, .container2 a{
-    display: block;
+
+/* Exercício 1 */
+.hcontainer {
+    display: flex;
+    background-color: aquamarine;
+    gap: 10px;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    margin: 5px;
     padding: 10px;
 }
-.hcontainer {
-        display: flex;
-        background-color: aquamarine;
-        gap: 10px;
-        flex-direction: column;
-        border: 1px solid lightgray;
-        margin: 5px;
-}
 
+/* Conteúdo principal */
 .conteudo {
-        display: flex;
-       /*width: 700px;*/
-        flex-direction: column;
-
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
+/* Exercício 2 */
 .container {
-        display: flex;
-        justify-content: space-evenly;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
 }
 
 .container .item1,
 .container .item2,
 .container .item3 {
-        flex-grow: 1;
-        text-decoration: underline;
+    flex-grow: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
 }
 
-.container .item1 a:hover {
-        background-color: aquamarine;
-
+/* Hover + traço embaixo */
+.container .item1:hover,
+.container .item2:hover,
+.container .item3:hover {
+    text-decoration: underline;
 }
 
-.container .item2 a:hover {
-        background-color: pink;
-
+.container .item1:hover {
+    background-color: aquamarine;
 }
 
-.container .item3 a:hover {
-        background-color: plum;
-
+.container .item2:hover {
+    background-color: pink;
 }
 
+.container .item3:hover {
+    background-color: plum;
+}
+
+/* Exercício 3 */
 .container2 {
-        display: flex;
-        justify-content: flex-start;
-        color: black;
+    display: flex;
+
+    /* Exercício 4 */
+    justify-content: flex-end;
+
+    gap: 10px;
 }
 
 .container2 .item1,
 .container2 .item2,
 .container2 .item4,
 .container2 .item5 {
-        flex-grow: 1;
-        padding: 20px;
-        border: 1px solid #ccc;
-        margin-left: 10px;
+    flex-grow: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
 }
 
+/* terceiro item cresce 2x */
 .container2 .item3 {
-        flex-grow: 2;
-        padding: 20px;
-        border: 1px solid #ccc;
-        margin-left: 10px;
+    flex-grow: 2;
+    padding: 20px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
 }
 
-.container2 .item1 a:hover {
-        background-color: cadetblue;
+/* Hover */
+.container2 .item1:hover {
+    background-color: cadetblue;
 }
 
-.container2 .item1 a:active {
-        background-color: darkcyan;
+.container2 .item2:hover {
+    background-color: thistle;
 }
 
-.container2 .item2 a:hover {
-        background-color: thistle;
+.container2 .item3:hover {
+    background-color: skyblue;
 }
 
-.container2 .item2 a:active {
-        background-color: darkkhaki;
-        padding: 5px;
-        display: inline-block;
+.container2 .item4:hover {
+    background-color: peachpuff;
 }
 
-.container2 .item3 a:hover {
-        background-color: skyblue;
-        padding: 5px;
-        display: inline-block;
+.container2 .item5:hover {
+    background-color: mistyrose;
 }
 
-.container2 .item3 a:active {
-        background-color: darksalmon;
+/* Clique */
+.container2 .item1:active {
+    background-color: darkcyan;
 }
 
-.container2 .item4 a:hover {
-        background-color: peachpuff;
+.container2 .item2:active {
+    background-color: darkkhaki;
 }
 
-.container2 .item4 a:active {
-        background-color: hotpink;
+.container2 .item3:active {
+    background-color: darksalmon;
 }
 
-.container2 .item5 a:hover {
-        background-color: mistyrose;
+.container2 .item4:active {
+    background-color: hotpink;
 }
 
-.container2 .item5 a:active {
-        background-color: wheat;
+.container2 .item5:active {
+    background-color: wheat;
 }
