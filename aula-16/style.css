@@ -1,0 +1,14 @@
+header{
+    display:flex;
+    align-items: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 50px;
+    margin:0;
+    gap: 20px;
+    background: linear-gradient(to right, bisque, rgb(208, 173, 209));
+    
+}
+body {
+    margin:25px;
+}
