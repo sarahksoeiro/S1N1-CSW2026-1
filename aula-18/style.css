@@ -1,0 +1,80 @@
+*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background: linear-gradient(135deg, #b96e85, #f5cddc);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .container{
+            background-color: white;
+            padding: 40px;
+            border-radius: 20px;
+            width: 350px;
+            text-align: center;
+            box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+            background-image: url("foto_feto.png");
+            background-position: center;
+            background-size: 300px;
+            background-image: linear-gradient(rgba(253, 251, 251, 0.5), rgba(240, 234, 234, 0.5)),url("foto_feto.png");
+
+    background-size: cover;
+    background-position: center;
+        }
+
+        h1{
+            margin-bottom: 25px;
+            color: rgb(126, 35, 73);
+        }
+
+        .inputs{
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        input{
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            outline: none;
+            font-size: 16px;
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        input:focus{
+            border-color: #bba9da;
+        }
+
+        button{
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 10px;
+            background-color: rgb(126, 35, 73);
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover{
+            background-color: #9fccf1fd;
+        }
+
+        #resposta{
+            margin-top: 20px;
+            font-size: 18px;
+            color: #333;
+            font-weight: bold;
+        }
